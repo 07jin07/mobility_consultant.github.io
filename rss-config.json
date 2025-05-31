@@ -1,0 +1,131 @@
+{
+  "categories": {
+    "japanese_oem": {
+      "name": "日系自動車メーカー",
+      "color": "#1e40af",
+      "icon": "🇯🇵",
+      "feeds": [
+        {
+          "name": "Toyota Global",
+          "url": "https://global.toyota/en/newsroom/rss/",
+          "priority": "high",
+          "description": "トヨタ自動車の最新ニュースとプレスリリース"
+        },
+        {
+          "name": "Honda Global",
+          "url": "https://global.honda/newsroom/rss/",
+          "priority": "high",
+          "description": "ホンダの企業ニュースと製品情報"
+        },
+        {
+          "name": "Nissan Global",
+          "url": "https://www.nissan-global.com/EN/RSS/NEWSROOM.xml",
+          "priority": "medium",
+          "description": "日産自動車のグローバルニュース"
+        },
+        {
+          "name": "Mazda",
+          "url": "https://newsroom.mazda.com/en/rss/",
+          "priority": "medium",
+          "description": "マツダの最新情報"
+        }
+      ]
+    },
+    "global_oem": {
+      "name": "グローバル自動車メーカー",
+      "color": "#dc2626",
+      "icon": "🌍",
+      "feeds": [
+        {
+          "name": "Tesla Blog",
+          "url": "https://www.tesla.com/blog/rss",
+          "priority": "high",
+          "description": "Tesla公式ブログとアップデート"
+        },
+        {
+          "name": "BMW Group",
+          "url": "https://press.bmwgroup.com/global/rss-feeds/rss-feed-news",
+          "priority": "high",
+          "description": "BMWグループのプレスリリース"
+        },
+        {
+          "name": "Mercedes-Benz",
+          "url": "https://media.mercedes-benz.com/rss/en",
+          "priority": "high",
+          "description": "メルセデス・ベンツのメディア情報"
+        },
+        {
+          "name": "Volkswagen Group",
+          "url": "https://www.volkswagen-newsroom.com/en/rss",
+          "priority": "medium",
+          "description": "フォルクスワーゲングループニュース"
+        }
+      ]
+    },
+    "government": {
+      "name": "政府・行政機関",
+      "color": "#059669",
+      "icon": "🏛️",
+      "feeds": [
+        {
+          "name": "国土交通省",
+          "url": "https://www.mlit.go.jp/report/press/rss.xml",
+          "priority": "high",
+          "description": "モビリティ政策とインフラ整備情報"
+        },
+        {
+          "name": "経済産業省",
+          "url": "https://www.meti.go.jp/rss/press.xml",
+          "priority": "high",
+          "description": "自動車産業政策と規制情報"
+        },
+        {
+          "name": "環境省",
+          "url": "https://www.env.go.jp/rss/press.xml",
+          "priority": "medium",
+          "description": "環境政策とEV推進施策"
+        },
+        {
+          "name": "内閣府",
+          "url": "https://www.cao.go.jp/rss/press.xml",
+          "priority": "medium",
+          "description": "政府の総合政策情報"
+        }
+      ]
+    },
+    "consulting": {
+      "name": "コンサルティング・調査機関",
+      "color": "#7c3aed",
+      "icon": "📊",
+      "feeds": [
+        {
+          "name": "BCG",
+          "url": "https://www.bcg.com/about/rss",
+          "priority": "high",
+          "description": "ボストンコンサルティンググループの業界分析"
+        },
+        {
+          "name": "McKinsey & Company",
+          "url": "https://www.mckinsey.com/featured-insights/rss",
+          "priority": "high",
+          "description": "マッキンゼーの最新インサイト"
+        },
+        {
+          "name": "Automotive News",
+          "url": "https://www.autonews.com/rss.xml",
+          "priority": "medium",
+          "description": "自動車業界専門ニュース"
+        },
+        {
+          "name": "electrive.com",
+          "url": "https://electrive.com/feed",
+          "priority": "medium",
+          "description": "電気モビリティ専門情報"
+        }
+      ]
+    }
+  },
+  "update_frequency": 300,
+  "max_items_per_feed": 10,
+  "cors_proxy": "https://api.allorigins.win/raw?url="
+}
